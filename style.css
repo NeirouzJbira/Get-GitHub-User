@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+
+*,*::before,*::after {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  font: 400 16px/120% "Rubik", sans-serif;
+  color: #1a1919;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fdfdfd;
+}
+h3, p {
+  text-align: center;
+  color: #141301;
+  opacity: 0.9;
+}
+h3 {
+  text-transform: uppercase;
+  font: bold 34px/120% Georgia, serif;
+}
+#container {
+  margin-top: 1em;
+  padding: 0 2em 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+input[type="text"] {
+  height: 2.2em;
+  width: 300px;
+  min-width: 100%;
+  font-size: 1em;
+  padding: 10px;
+  border: 2px solid #ff60a1;
+  border-radius: 15px;
+  outline: none;
+}
+input:focus { border: 2px solid #5ebefd; }
+input::placeholder {
+  color: #353131;
+  font-size: 15px;
+}
+#profile {
+  padding: 5px 10px;
+  min-height: 50%;
+  min-width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #353131;
+  color: #fdfdfd;
+  border-radius: 5px;
+}
+#profile p { color: #fdfdfd; }
+#profile .info img, #profile .info div {
+  padding-bottom: 5px;
+}
+.search { margin: 50px auto; }
+h4 {
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 426px) {
+  h3 {
+    font-size: 24px;
+  }
+  p,input[type="text"],input::placeholder {
+    font-size: 14px;
+  }
+  input[type="text"] {
+    height: 2.2em;
+    padding: 10px;
+    min-width: 100%;
+  }
+  #profile {
+    min-width: 80%;
+  }
+}
