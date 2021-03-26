@@ -10,7 +10,7 @@ A webpage that can retrieve information about a specified GitHub user. You enter
 ### To view
 See live website here: 
 - https://NeirouzJbira.github.io/Get-GitHub-User/
-- 
+ 
 <img src="https://github.com/NeirouzJbira/Get-GitHub-User/blob/main/img.PNG">
 
 ### Technologies
